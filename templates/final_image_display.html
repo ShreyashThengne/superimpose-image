@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Image</title>
+    <style>
+        /* CSS styles to resize the image */
+        img {
+            max-width: 100%; /* Set maximum width to 100% of the container */
+            height: auto; /* Maintain aspect ratio */
+            display: block; /* Ensure the image is displayed as a block element */
+            margin: auto; /* Center the image horizontally */
+        }
+    </style>
+</head>
+<body>
+    <img src="data:image/png;base64,{{ img }}" alt="Uploaded Image">
+</body>
+</html>

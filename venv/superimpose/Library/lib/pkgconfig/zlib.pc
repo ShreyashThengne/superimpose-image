@@ -1,0 +1,13 @@
+prefix=C:/xampp/htdocs/Superimpose_task/venv/superimpose/Library
+exec_prefix=C:/xampp/htdocs/Superimpose_task/venv/superimpose/Library
+libdir=C:/xampp/htdocs/Superimpose_task/venv/superimpose/Library/lib
+sharedlibdir=C:/xampp/htdocs/Superimpose_task/venv/superimpose/Library/lib
+includedir=C:/xampp/htdocs/Superimpose_task/venv/superimpose/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
