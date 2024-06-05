@@ -32,13 +32,11 @@
 
 <?php
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    // Check if the form fields are set before accessing them
+    // initializing variables
     $left = isset($_POST['left']) ? $_POST['left'] : null;
     $right = isset($_POST['right']) ? $_POST['right'] : null;
     $top = isset($_POST['top']) ? $_POST['top'] : null;
     $bottom = isset($_POST['bottom']) ? $_POST['bottom'] : null;
-
-    // Proceed with further processing, validation, or error handling
 }
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $left = $_POST['left'];
